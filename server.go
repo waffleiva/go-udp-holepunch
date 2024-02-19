@@ -24,7 +24,7 @@ func (c clientType) keys(filter string) string {
 
 // Server --
 func Server() {
-	localAddress := ":9595"
+	localAddress := ":9696"
 	if len(os.Args) > 2 {
 		localAddress = os.Args[2]
 	}
